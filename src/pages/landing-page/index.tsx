@@ -9,9 +9,9 @@ const MyCompo : React.FC = () =>  {
     }
     return (
             <div className ="header">
-                <nav>
+                <nav className="navBar">
                     <img src={ICONS.NetflixLogo} alt="Netflix Logo" className="logo"/>
-                    <div>
+                    <div className="buttons">
                         <button className="language-btn" onClick={handle}>
                         <img style={{width:"15px", marginRight:"10px"}} src={ICONS.Lang} alt="Language" />
                             <b>English</b>

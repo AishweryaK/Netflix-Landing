@@ -1,15 +1,29 @@
 .header {
-    align-items: center;
-    justify-content: center;
-    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    /* padding-right: 20px; */
+    
 }
 
 
-nav{
+/* nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-between;
+    background-color: aqua;
+    padding-top:0px;
+} */
 
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding-top:0px;
+    padding-right: 35px;
+    padding-left: 15px;
 }
 
 .logo {
@@ -17,12 +31,16 @@ nav{
     /* width: 40px; */
 }
 
+.buttons {
+    display: inline-flex;
+}
+
 nav button {
     border: none;
     /* outline: 0; */
     background-color:#e50814;
     color:white;
-    padding: 7px 15px;
+    padding: 8px 15px;
     font-size: 15px;
     border-radius: 4px;
     margin-left: 25px;
@@ -30,6 +48,7 @@ nav button {
 }
 
 .language-btn {
+    display: inline-flex;
     align-items: center;
     background-color: transparent;
     /* padding: 7px 15px; */
