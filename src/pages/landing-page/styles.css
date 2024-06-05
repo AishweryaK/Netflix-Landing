@@ -1,0 +1,109 @@
+.header {
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo {
+    height: 130px;
+    /* width: 40px; */
+}
+
+nav button {
+    border: none;
+    /* outline: 0; */
+    background-color:#e50814;
+    color:white;
+    padding: 7px 15px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 25px;
+    /* border-color: blue; */
+}
+
+.language-btn {
+    align-items: center;
+    background-color: transparent;
+    /* padding: 7px 15px; */
+    border: 1px solid gray;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.language-btn img {
+    width: 10px;
+    border: none;
+    margin-left: 10px;
+}
+
+.language-svg {
+    width: 400px;
+    margin-right: 20px;
+}
+
+.header-content {
+    color: white;
+    padding : 0px 20px;
+    padding-top: 5%;
+    text-align: center;
+    
+}
+
+@media screen and (min-width: 951px) {
+    .header-content h1 {
+      font-size: 50px;
+      margin-bottom: 15px;
+    }
+    .header-content h3 {
+        font-size: 25px;
+        margin-top: 0px;
+        font-family:sans-serif;
+    }
+    .header-content p {
+        font-size: 20px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 950px) {
+    .header-content h1 {
+      font-size: 35px;
+      margin-bottom: 15px;
+    }
+    .header-content h3 {
+        font-size: 20px;
+        margin-top: 0px;
+        font-family:sans-serif;
+    }
+    .header-content p {
+        font-size: 15px;
+    }
+    
+  }
+
+.signup {
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+
+}
+
+.signup input {
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 20px 10px;
+    width: 350px;
+
+}
+
