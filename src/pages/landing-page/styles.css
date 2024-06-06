@@ -42,6 +42,10 @@ nav button {
     flex-shrink: 0;
     /* border-color: blue; */
 }
+nav button:hover {
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background-color: rgb(193, 17, 25);
+  }
 
 .language-btn {
     display: inline-flex;
@@ -138,7 +142,7 @@ nav button {
 .signin-button {
     display:inline-flex;
     align-items: center;
-    background-color: #e50814;
+    background-color:#e50814;
     border: none;
     border-radius: 4px;
     color: white;
@@ -148,11 +152,15 @@ nav button {
     margin-left: 10px;
     flex-shrink: 0;
     cursor: pointer;
+    box-sizing: border-box;
+
 }
 
-/* .signin-button :hover {
-   filter: brightness(0.2);
-} */
+.signin-button:hover {
+  /* transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1); */
+  background: rgb(193, 17, 25);
+  transition: 0.1s ease-in-out;
+}
 
 .signin-button img {
     height: 25px;
@@ -183,7 +191,7 @@ nav button {
 
 
 
-  .divider {
+  /* .divider {
     flex:1;
     border-top: 7px solid #232323;
     margin-top: 200px;
@@ -212,22 +220,89 @@ nav button {
 
 .footer .col {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
     /* justify-content: flex-start; */
-    gap: 5px;
+    /* gap: 5px;
     text-align: left;
 }
 .footer .col a {
-    color: #BBBBBB;
+    color: #BBBBBB; */
     /* display: block; */
-    margin-bottom: 5px;
+    /* margin-bottom: 5px;
 }
 
 .divider p {
     font-size: 15px;
     padding: 20px;
     padding-top: 5px;
-}
+} */
 
 
+/* ///////----------------------------------------------- */
+
+.divider {
+    width : 100vw;
+    /* max-width: 1000px; */
+    margin: auto;
+    padding: 70px 56px;
+    background-color: #e50814;
+  }
+  
+  .divider h2 {
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 50px;
+  }
+
+  .divider u {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 740px) {
+    .divider {
+      padding: 70px 2px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .divider {
+      padding: 70px 15px;
+    }
+  }
+  
+  .footer {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  @media (max-width: 740px) {
+    .footer {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .footer {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer .col a{
+    color: #757575;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+
+  .divider p {
+    font-size: 15px;
+    /* padding: 20px; */
+    padding-top: 5px;
+    color: #757575;
+} 
 
