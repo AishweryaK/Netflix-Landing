@@ -1,6 +1,7 @@
 import React from "react";
-import { ICONS } from "../../../assets";
+import { ICONS } from "../assets";
 import "./style.css";
+import { STRING } from "../pages/landing-page/helpers/constants";
 
 const SelectLanguage: React.FC = () => {
   const handle = () => {
@@ -19,8 +20,8 @@ const SelectLanguage: React.FC = () => {
         {/* 
               <b>English</b>
               <img src={ICONS.Dropdown} alt="Dropdown" /> */}
-        <option value="english">English</option>
-        <option value="hindi">हिंदी</option>
+        <option value="english">{STRING.ENGLISH}</option>
+        <option value="hindi">{STRING.HINDI} </option>
       </select>
     </div>
   );

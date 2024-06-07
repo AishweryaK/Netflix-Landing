@@ -1,0 +1,55 @@
+.lang {
+    position: relative; 
+}
+
+.lang:focus-visible {
+    outline: none;
+}
+
+.lang img {
+    position: absolute;
+    height: 15px;
+    top: 30%;
+    left: 15px;
+}
+
+.language-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid gray;
+    cursor: auto;
+    color:white;
+    padding: 6px 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    padding-left: 35px;
+}
+
+.language-btn:focus-visible {
+    outline: white solid 2px;
+}
+
+/* .language-btn img {
+    width: 10px;
+    border: none;
+    margin-left: 10px;
+} */
+
+/* @media screen and (max-width: 600px) {
+
+} */
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+.bootstrap {
+    padding: 70px 20%;
+}
+
+@media (max-width: 1270px) {
+    .bootstrap {
+      box-sizing: border-box;
+      padding: 70px 4%;
+    }
+  }
