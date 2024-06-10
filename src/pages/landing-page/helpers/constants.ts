@@ -25,4 +25,7 @@ export const STRING = {
   GETSTARTED: "Get Started",
   ENGLISH:"English",
   HINDI:"हिंदी",
+  EMAIL :"Email address",
+  TITLE:"Go to Footer",
+  LOGO: "Netflix Logo",
 };

@@ -1,16 +1,12 @@
 import React from "react";
 import "./App.css";
-import Header from "./pages/landing-page";
-import Accordion from "./components/Accordion";
-import GoTopButton from "./components/Accordion";
+import LandingPage from "./pages/landing-page";
+import GoTopButton from "./components/ScrollToTop";
 
 function App():JSX.Element{
   return (
     <div className="App">
-      <Header />
-      <Header />
-      <Header />
-      <Header />
+      <LandingPage />
       {/* <Accordion /> */}
       <GoTopButton />
     </div>

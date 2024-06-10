@@ -1,3 +1,4 @@
+/* selectLang------------------------------------------------------------------------------------------------------- */
 .lang {
     position: relative; 
 }
@@ -30,18 +31,7 @@
     outline: white solid 2px;
 }
 
-/* .language-btn img {
-    width: 10px;
-    border: none;
-    margin-left: 10px;
-} */
-
-/* @media screen and (max-width: 600px) {
-
-} */
-
-
-/* ------------------------------------------------------------------------------------------------------- */
+/* BootStrap------------------------------------------------------------------------------------------------------- */
 
 .bootstrap {
     padding: 70px 20%;
@@ -53,3 +43,37 @@
       padding: 70px 4%;
     }
   }
+
+  /* ScrollToTop------------------------------------------------------------------------------------------------------- */
+
+  .scroll {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    border: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color:#e50814;
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(193, 17, 25, 0.5);;
+}
+
+.scrollIcon {
+    height: 25px;
+    align-items: center;
+}
+
+.scroll:hover {
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background-color: rgb(193, 17, 25);
+  }
+
+
+  .accordion {
+    background-color: #e50814;
+  }
+

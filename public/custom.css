@@ -1,0 +1,11 @@
+.accordion {
+    background-color: black;
+}
+
+/* More specific selectors */
+#accordionExample .accordion-item .accordion-button {
+    background-color: #007bff !important;
+    color: white !important;
+    border: none !important;
+  }
+  
